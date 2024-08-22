@@ -26,11 +26,11 @@ data = {
     "messages": [
         {
             "role": "system",
-            "content": "You are a helpful assistant."
+            "content": systemPrompt
         },
         {
             "role": "user",
-            "content": "Hello!"
+            "content": transcript
         }
     ]
 }

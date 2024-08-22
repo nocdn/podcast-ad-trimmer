@@ -1,1 +1,1207 @@
-hey there, this is a podcast transcription
+[
+  {
+    "start": 0.169,
+    "end": 1.31,
+    "text": " Know what that sound means?"
+  },
+  {
+    "start": 2.57,
+    "end": 7.353,
+    "text": "It's another sale on Shopify, the all-in-one commerce platform to start, run and grow your business."
+  },
+  {
+    "start": 7.633,
+    "end": 13.716,
+    "text": "Shopify is revolutionising millions of businesses worldwide, making it easier than ever to sell online and in person."
+  },
+  {
+    "start": 13.896,
+    "end": 18.839,
+    "text": "Whether you're selling succulents, stilettos or anything in between, Shopify simplifies everything."
+  },
+  {
+    "start": 18.999,
+    "end": 24.202,
+    "text": "You can even expand your reach across social media marketplaces like Facebook, Instagram and TikTok."
+  },
+  {
+    "start": 24.362,
+    "end": 24.982,
+    "text": "With Shopify..."
+  },
+  {
+    "start": 25.222,
+    "end": 29.546,
+    "text": " You're in full control of your brand and business, no coding or design skills required."
+  },
+  {
+    "start": 29.706,
+    "end": 35.991,
+    "text": "And thanks to their award-winning support and extensive business course library, you'll have the tools and confidence to take your business to new heights."
+  },
+  {
+    "start": 36.231,
+    "end": 37.532,
+    "text": "Plus, the best part?"
+  },
+  {
+    "start": 37.932,
+    "end": 39.073,
+    "text": "Shopify grows with you."
+  },
+  {
+    "start": 39.354,
+    "end": 44.538,
+    "text": "Whether you're just starting out or you're ready to take your business to the next level, Shopify is your partner in success."
+  },
+  {
+    "start": 45.038,
+    "end": 50.379,
+    "text": " Sign up for a £1 per month trial period at shopify.co.uk slash finance, all lowercase."
+  },
+  {
+    "start": 50.619,
+    "end": 54.74,
+    "text": "Go to shopify.co.uk slash finance to take your business to the next level today."
+  },
+  {
+    "start": 54.88,
+    "end": 56.901,
+    "text": "shopify.co.uk slash finance."
+  },
+  {
+    "start": 62.682,
+    "end": 63.883,
+    "text": "Hey, and welcome to the short stuff."
+  },
+  {
+    "start": 63.963,
+    "end": 73.105,
+    "text": "I'm Josh and there's Chuck and we're here with Zippy, Mr. Zip, also known as Jerry, sitting in for Dave, who has nothing to do with the post office."
+  },
+  {
+    "start": 73.485,
+    "end": 74.225,
+    "text": "And this is short stuff."
+  },
+  {
+    "start": 74.926,
+    "end": 75.366,
+    "text": " That's right."
+  },
+  {
+    "start": 75.486,
+    "end": 81.01,
+    "text": "I'm sure we probably talked about zip codes to some degree in the post office episode."
+  },
+  {
+    "start": 81.13,
+    "end": 82.591,
+    "text": "In our episode on zip codes."
+  },
+  {
+    "start": 85.162,
+    "end": 86.082,
+    "text": " It was USPS."
+  },
+  {
+    "start": 86.122,
+    "end": 87.083,
+    "text": "We didn't do one on zip codes."
+  },
+  {
+    "start": 87.243,
+    "end": 87.583,
+    "text": "No."
+  },
+  {
+    "start": 88.163,
+    "end": 88.563,
+    "text": "Okay, good."
+  },
+  {
+    "start": 89.603,
+    "end": 95.946,
+    "text": "But we're going to talk a little bit about zip codes, that thing on the envelope that's – well, it depends on how long it is."
+  },
+  {
+    "start": 96.006,
+    "end": 100.467,
+    "text": "It depends – well, we'll get to what those numbers mean because some of them are a little longer than others."
+  },
+  {
+    "start": 101.527,
+    "end": 109.17,
+    "text": "If you want to talk about the origin of just postal codes, it seems to be from London because in 1857, they started up –"
+  },
+  {
+    "start": 112.051,
+    "end": 118.199,
+    "text": " with 10 different sections of London, like north, south, WC, western, central."
+  },
+  {
+    "start": 118.759,
+    "end": 124.626,
+    "text": "And the whole point of all this is to, you know, it's called a zone improvement plan for a reason."
+  },
+  {
+    "start": 124.666,
+    "end": 129.112,
+    "text": "It's to improve the way mail was delivered and just to make it easier to sort and get out."
+  },
+  {
+    "start": 129.605,
+    "end": 142.552,
+    "text": " Yeah, and whether it's 1857 or 2024, zip codes and anything to do with zip codes is something that's a consequence of more and more people showing up into a more and more densely packed area."
+  },
+  {
+    "start": 143.192,
+    "end": 146.274,
+    "text": "It gets harder to deliver the mail the more people there are."
+  },
+  {
+    "start": 146.354,
+    "end": 153.658,
+    "text": "So if you can specify with greater detail, you can make sure that that letter gets to the right person even faster."
+  },
+  {
+    "start": 154.298,
+    "end": 160.458,
+    "text": " Because if you just put the address on there and throw it out into the street, it's going to take a while for it to get where it's going."
+  },
+  {
+    "start": 160.538,
+    "end": 160.718,
+    "text": "Yeah."
+  },
+  {
+    "start": 163.237,
+    "end": 167.098,
+    "text": " Well, that's basically what we did until July 1st, 1963 in the United States."
+  },
+  {
+    "start": 167.178,
+    "end": 171.899,
+    "text": "We had, you know, the street number and street and then the city and the state."
+  },
+  {
+    "start": 171.999,
+    "end": 172.46,
+    "text": "And that was it."
+  },
+  {
+    "start": 173.54,
+    "end": 180.262,
+    "text": "It feels like it would be very weird for my eyes to see an address without a zip code because we grew up with them."
+  },
+  {
+    "start": 180.302,
+    "end": 187.784,
+    "text": "But, you know, if you're around before 63, it's sort of like us with the area codes now on telephones."
+  },
+  {
+    "start": 187.804,
+    "end": 190.805,
+    "text": "Like we grew up without area codes that you had to dial first, too."
+  },
+  {
+    "start": 191.245,
+    "end": 192.225,
+    "text": "Oh, yeah, for sure."
+  },
+  {
+    "start": 193.187,
+    "end": 199.892,
+    "text": " But there are 41,642 zip codes in the United States."
+  },
+  {
+    "start": 200.413,
+    "end": 208.679,
+    "text": "That number is not necessarily always growing because when I looked at the source material, there are actually more than there are now."
+  },
+  {
+    "start": 209.179,
+    "end": 211.982,
+    "text": "So I guess they get combined or they shrink and things change."
+  },
+  {
+    "start": 212.902,
+    "end": 214.203,
+    "text": "But right now there's, like I said, 41,642."
+  },
+  {
+    "start": 216.846,
+    "end": 228.215,
+    "text": " And the whole thing started back when a fresh faced up and coming young postal inspector from Philadelphia named Robert Moon decided that it was time to improve the organization at their mail center."
+  },
+  {
+    "start": 228.635,
+    "end": 241.125,
+    "text": "And Moon came up with a zip code for use in Philadelphia that was so sharp and so whiz bang that the USPS totally ripped him off and fired him so that he couldn't tell anybody that they stole his idea."
+  },
+  {
+    "start": 242.145,
+    "end": 242.846,
+    "text": "I don't believe that."
+  },
+  {
+    "start": 244.363,
+    "end": 244.763,
+    "text": " You shouldn't."
+  },
+  {
+    "start": 245.023,
+    "end": 254.615,
+    "text": "But he did come up with the concept of zip codes, and the USPS did take his idea and run with it, but I don't think that they fired him and tried to shut him up."
+  },
+  {
+    "start": 254.955,
+    "end": 257.078,
+    "text": "I think they were like, yeah, great idea, kid."
+  },
+  {
+    "start": 257.594,
+    "end": 258.194,
+    "text": " Yeah, exactly."
+  },
+  {
+    "start": 258.535,
+    "end": 266.1,
+    "text": "His only had three digits at first, so he could identify sort of the region where it was going, and then the city, basically."
+  },
+  {
+    "start": 267.28,
+    "end": 270.983,
+    "text": "We'll get, probably in the second half, get to what they mean now."
+  },
+  {
+    "start": 271.083,
+    "end": 275.246,
+    "text": "But I did mention it was an acronym for Zone Improvement Plan."
+  },
+  {
+    "start": 275.366,
+    "end": 276.487,
+    "text": "They did get ZIP."
+  },
+  {
+    "start": 277.407,
+    "end": 279.709,
+    "text": "The USPS has got it trademarked."
+  },
+  {
+    "start": 280.149,
+    "end": 280.569,
+    "text": "Yeah."
+  },
+  {
+    "start": 280.87,
+    "end": 285.272,
+    "text": "But they let it expire, I guess, when they realized that, like, what's anyone going to do with the word ZIP?"
+  },
+  {
+    "start": 285.673,
+    "end": 285.993,
+    "text": "Exactly."
+  },
+  {
+    "start": 286.013,
+    "end": 287.214,
+    "text": "It really matters, you know."
+  },
+  {
+    "start": 287.234,
+    "end": 287.334,
+    "text": "Right."
+  },
+  {
+    "start": 287.734,
+    "end": 289.096,
+    "text": " Yeah, I don't get it at all."
+  },
+  {
+    "start": 289.136,
+    "end": 296.723,
+    "text": "But yeah, so, I mean, if you wanted to use zip code yourself, then the post office is not going to sue you for that because they can't."
+  },
+  {
+    "start": 296.783,
+    "end": 297.624,
+    "text": "Be some hot merch."
+  },
+  {
+    "start": 298.805,
+    "end": 308.915,
+    "text": "So before July 1st, 1963, when zip codes debuted, and I'm sure for a while after until people started using them, because it wasn't like an immediate like..."
+  },
+  {
+    "start": 309.415,
+    "end": 313.48,
+    "text": " Like left-hand driving day happened."
+  },
+  {
+    "start": 313.56,
+    "end": 314.921,
+    "text": "Was it Sweden or Denmark?"
+  },
+  {
+    "start": 314.941,
+    "end": 316.943,
+    "text": "Oh, that's right."
+  },
+  {
+    "start": 316.963,
+    "end": 322.209,
+    "text": "Like that happened on a specific minute, and that's the way it was from that moment on."
+  },
+  {
+    "start": 322.509,
+    "end": 324.971,
+    "text": "Zip codes were introduced, and it took a little while to catch on."
+  },
+  {
+    "start": 325.512,
+    "end": 331.114,
+    "text": " But one of the reasons why zip codes were introduced was, again, because more and more people were moving into cities."
+  },
+  {
+    "start": 331.634,
+    "end": 339.216,
+    "text": "And at the time, if you mailed a piece of mail, it usually went through about 17 stops from where you dropped it off to where it ended up."
+  },
+  {
+    "start": 339.696,
+    "end": 347.818,
+    "text": "And zip codes help improve that because it narrows the location that it's going to head toward on its journey."
+  },
+  {
+    "start": 348.438,
+    "end": 349.899,
+    "text": "And at each stop..."
+  },
+  {
+    "start": 350.519,
+    "end": 355.004,
+    "text": " The information located in the zip code tells the people at that stop, oh, it needs to go this way."
+  },
+  {
+    "start": 355.645,
+    "end": 357.687,
+    "text": "And then it needs to go that way and it needs to go here."
+  },
+  {
+    "start": 357.727,
+    "end": 360.11,
+    "text": "And then now it needs to go to this specific address."
+  },
+  {
+    "start": 360.671,
+    "end": 363.654,
+    "text": "Yeah, the zip code should be first on the line if you put it that way, you know."
+  },
+  {
+    "start": 364.076,
+    "end": 364.916,
+    "text": " Yeah, for sure."
+  },
+  {
+    "start": 364.976,
+    "end": 366.277,
+    "text": "Somebody really dropped the ball."
+  },
+  {
+    "start": 366.737,
+    "end": 367.857,
+    "text": "I'm looking at Robert Moon."
+  },
+  {
+    "start": 368.417,
+    "end": 369.498,
+    "text": "I guess they know where to look, though."
+  },
+  {
+    "start": 370.418,
+    "end": 373.439,
+    "text": "Like you said, no one used it a lot at first, and it had to gain steam."
+  },
+  {
+    "start": 373.479,
+    "end": 387.464,
+    "text": "And one of the ways they got the PR team on it and the marketing team on it, and they had Mr. Zip or Zippy, like you kind of joked about Jerry, as a little character in the 1960s and 70s when they had new zip codes coming out."
+  },
+  {
+    "start": 388.004,
+    "end": 390.785,
+    "text": "And they even had Ethel Merman do a commercial for"
+  },
+  {
+    "start": 391.985,
+    "end": 399.73,
+    "text": " singing to the tune of Zippity-Doo-Dah to literally just sort of drive the idea that like, hey, zip codes are here to stay, everyone."
+  },
+  {
+    "start": 399.93,
+    "end": 400.631,
+    "text": "Get on board."
+  },
+  {
+    "start": 402.252,
+    "end": 405.774,
+    "text": "Honey, everything's coming around."
+  },
+  {
+    "start": 406.914,
+    "end": 407.815,
+    "text": "What movie is that from?"
+  },
+  {
+    "start": 409.463,
+    "end": 410.724,
+    "text": " I mean, I want to say airplane."
+  },
+  {
+    "start": 410.944,
+    "end": 412.264,
+    "text": "Yes, it was airplane."
+  },
+  {
+    "start": 412.384,
+    "end": 415.626,
+    "text": "Somebody injected her with a sedative while she was singing."
+  },
+  {
+    "start": 415.646,
+    "end": 416.046,
+    "text": "It was great."
+  },
+  {
+    "start": 416.066,
+    "end": 424.089,
+    "text": "All right, let's take a break, and we'll come back and talk about how you decipher these things and what all those dumb numbers mean right after this."
+  },
+  {
+    "start": 424.909,
+    "end": 432.692,
+    "text": "Well, now, when you're on the road, driving in your truck, why not learn a thing or two from Josh and Chuck?"
+  },
+  {
+    "start": 432.972,
+    "end": 434.153,
+    "text": "It's stuff you should know."
+  },
+  {
+    "start": 440.171,
+    "end": 441.312,
+    "text": " Know what that sound means?"
+  },
+  {
+    "start": 442.573,
+    "end": 447.356,
+    "text": "It's another sale on Shopify, the all-in-one commerce platform to start, run and grow your business."
+  },
+  {
+    "start": 447.637,
+    "end": 453.721,
+    "text": "Shopify is revolutionising millions of businesses worldwide, making it easier than ever to sell online and in person."
+  },
+  {
+    "start": 453.901,
+    "end": 458.825,
+    "text": "Whether you're selling succulents, stilettos or anything in between, Shopify simplifies everything."
+  },
+  {
+    "start": 459.005,
+    "end": 464.206,
+    "text": " You can even expand your reach across social media marketplaces like Facebook, Instagram and TikTok."
+  },
+  {
+    "start": 464.346,
+    "end": 467.326,
+    "text": "With Shopify, you're in full control of your brand and business."
+  },
+  {
+    "start": 467.607,
+    "end": 469.547,
+    "text": "No coding or design skills required."
+  },
+  {
+    "start": 469.707,
+    "end": 475.988,
+    "text": "And thanks to their award-winning support and extensive business course library, you'll have the tools and confidence to take your business to new heights."
+  },
+  {
+    "start": 476.228,
+    "end": 477.528,
+    "text": "Plus, the best part?"
+  },
+  {
+    "start": 477.928,
+    "end": 479.069,
+    "text": "Shopify grows with you."
+  },
+  {
+    "start": 479.349,
+    "end": 484.59,
+    "text": "Whether you're just starting out or you're ready to take your business to the next level, Shopify is your partner in success."
+  },
+  {
+    "start": 485.05,
+    "end": 486.99,
+    "text": "Sign up for a £1 per month trial period."
+  },
+  {
+    "start": 487.39,
+    "end": 490.394,
+    "text": " at shopify.co.uk slash finance all lowercase."
+  },
+  {
+    "start": 490.634,
+    "end": 494.7,
+    "text": "Go to shopify.co.uk slash finance to take your business to the next level today."
+  },
+  {
+    "start": 498.939,
+    "end": 505.204,
+    "text": " Hi, I'm David Eagleman from the podcast Inner Cosmos, which recently hit the number one science podcast in America."
+  },
+  {
+    "start": 505.764,
+    "end": 511.809,
+    "text": "I'm a neuroscientist at Stanford, and I've spent my career exploring the three-pound universe in our heads."
+  },
+  {
+    "start": 512.249,
+    "end": 519.175,
+    "text": "We're looking at a whole new series of episodes this season to understand why and how our lives look the way they do."
+  },
+  {
+    "start": 519.695,
+    "end": 521.697,
+    "text": "Why does your memory drift so much?"
+  },
+  {
+    "start": 522.357,
+    "end": 524.719,
+    "text": "Why is it so hard to keep a secret?"
+  },
+  {
+    "start": 525.36,
+    "end": 527.721,
+    "text": "When should you not trust your intuition?"
+  },
+  {
+    "start": 528.562,
+    "end": 531.383,
+    "text": " Why do brains so easily fall for magic tricks?"
+  },
+  {
+    "start": 531.783,
+    "end": 533.764,
+    "text": "And why do they love conspiracy theories?"
+  },
+  {
+    "start": 534.604,
+    "end": 542.947,
+    "text": "I'm hitting these questions and hundreds more because the more we know about what's running under the hood, the better we can steer our lives."
+  },
+  {
+    "start": 543.668,
+    "end": 550.73,
+    "text": "Join me weekly to explore the relationship between your brain and your life by digging into unexpected questions."
+  },
+  {
+    "start": 551.391,
+    "end": 557.553,
+    "text": "Listen to Inner Cosmos with David Eagleman on the iHeartRadio app, Apple Podcasts, or wherever you get your podcasts."
+  },
+  {
+    "start": 569.324,
+    "end": 573.871,
+    "text": " Okay, Chuck, it's time for the most contentious part of this short stuff."
+  },
+  {
+    "start": 575.133,
+    "end": 582.143,
+    "text": "We're going to talk about deciphering those numbers in an American zip code, its own improvement plan code."
+  },
+  {
+    "start": 583.005,
+    "end": 583.145,
+    "text": "Mm-hmm."
+  },
+  {
+    "start": 584.557,
+    "end": 587.78,
+    "text": " The first number is pretty non-controversial."
+  },
+  {
+    "start": 587.82,
+    "end": 590.844,
+    "text": "We're in agreement that that stands for the national area."
+  },
+  {
+    "start": 591.684,
+    "end": 597.31,
+    "text": "And there's nine, no, there's 10 national areas numbered zero to nine."
+  },
+  {
+    "start": 598.171,
+    "end": 602.536,
+    "text": "Zero starts in the Northeast, probably in honor of Robert Moon."
+  },
+  {
+    "start": 603.843,
+    "end": 609.189,
+    "text": " And then nine goes up the West Coast, over to Hawaii, and up to Alaska."
+  },
+  {
+    "start": 609.51,
+    "end": 610.631,
+    "text": "That's the first number."
+  },
+  {
+    "start": 610.952,
+    "end": 615.877,
+    "text": "So wherever that first number is, it's going to hit a specific region of the United States."
+  },
+  {
+    "start": 616.098,
+    "end": 617.7,
+    "text": "That's called the national area."
+  },
+  {
+    "start": 618.38,
+    "end": 620.062,
+    "text": "Yeah, but you hit it on it with region."
+  },
+  {
+    "start": 620.303,
+    "end": 622.726,
+    "text": "That's the way people talk, and that's how people say it."
+  },
+  {
+    "start": 623.897,
+    "end": 625.839,
+    "text": " Okay, that's the first number."
+  },
+  {
+    "start": 626.219,
+    "end": 628.841,
+    "text": "What about the second number, the next two numbers?"
+  },
+  {
+    "start": 629.482,
+    "end": 632.244,
+    "text": "The next two numbers, they start drilling down even more."
+  },
+  {
+    "start": 632.944,
+    "end": 636.908,
+    "text": "So the next two are going to be, that is specifically the region."
+  },
+  {
+    "start": 636.928,
+    "end": 640.991,
+    "text": "Oh, wait, but how can the first number and then the next two all be the region?"
+  },
+  {
+    "start": 641.751,
+    "end": 643.213,
+    "text": "Well, it drills down."
+  },
+  {
+    "start": 643.293,
+    "end": 650.959,
+    "text": "You use that first number to get you to the general region, and then you go down to an even smaller region in the next two numbers."
+  },
+  {
+    "start": 651.339,
+    "end": 653.101,
+    "text": "Yeah, also called a sectional center."
+  },
+  {
+    "start": 653.7,
+    "end": 657.001,
+    "text": " Yeah, the SCF, right there on our page."
+  },
+  {
+    "start": 657.282,
+    "end": 662.624,
+    "text": "And then the sectional center can also be like a large city itself."
+  },
+  {
+    "start": 663.404,
+    "end": 665.025,
+    "text": "Yeah, sure."
+  },
+  {
+    "start": 665.525,
+    "end": 673.949,
+    "text": "So 9 is like California, and 02 is Beverly Hills, maybe Los Angeles."
+  },
+  {
+    "start": 676.141,
+    "end": 679.223,
+    "text": " Because the one O would be the next two numbers."
+  },
+  {
+    "start": 679.943,
+    "end": 686.987,
+    "text": "That's the actual post office that serves that area or group of post office that serve that delivery area."
+  },
+  {
+    "start": 687.591,
+    "end": 701.022,
+    "text": " Yeah, and again, it all depends on how big of an area you live in because once you get to the plus four system, which came about in 1983, you're drilling down even more depending on how big of a place you live."
+  },
+  {
+    "start": 702.223,
+    "end": 705.866,
+    "text": "The first two numbers of that plus four, which is separated by a dash from the initial..."
+  },
+  {
+    "start": 706.96,
+    "end": 710.202,
+    "text": " five, the street or building."
+  },
+  {
+    "start": 710.763,
+    "end": 718.108,
+    "text": "And then on the second or the last two numbers of the plus four, it can even go down to the side of the street or the floor of a building."
+  },
+  {
+    "start": 718.208,
+    "end": 727.754,
+    "text": "So as you'll see, if you have a building big enough, you will have your own plus four potentially with what floor of the building that letter is going to go to."
+  },
+  {
+    "start": 728.074,
+    "end": 728.254,
+    "text": "Yeah."
+  },
+  {
+    "start": 728.975,
+    "end": 733.018,
+    "text": "In other words, the United States Postal Service knows exactly where you are."
+  },
+  {
+    "start": 734.363,
+    "end": 734.823,
+    "text": " That's right."
+  },
+  {
+    "start": 735.483,
+    "end": 746.047,
+    "text": "And there are plenty of buildings with their own postal code, including, I guess, the champion of them all, which is the White House that has two zip codes."
+  },
+  {
+    "start": 746.507,
+    "end": 746.707,
+    "text": "Yeah."
+  },
+  {
+    "start": 747.287,
+    "end": 747.788,
+    "text": "Beat that."
+  },
+  {
+    "start": 748.428,
+    "end": 749.108,
+    "text": "You can't do it."
+  },
+  {
+    "start": 749.408,
+    "end": 755.99,
+    "text": "Apparently, the president's family, their personal private mail has its own zip code."
+  },
+  {
+    "start": 756.871,
+    "end": 758.991,
+    "text": "And then there's the regular one for the White House."
+  },
+  {
+    "start": 759.692,
+    "end": 760.052,
+    "text": "That's right."
+  },
+  {
+    "start": 760.858,
+    "end": 761.86,
+    "text": " Not just the White House."
+  },
+  {
+    "start": 762.42,
+    "end": 764.943,
+    "text": "There's also, like you said, individual buildings."
+  },
+  {
+    "start": 765.004,
+    "end": 769.269,
+    "text": "If it's a building big enough, it'll have its own first two numbers of a plus four."
+  },
+  {
+    "start": 769.589,
+    "end": 773.955,
+    "text": "My friend, there are buildings so big that they have their own zip code itself."
+  },
+  {
+    "start": 775.202,
+    "end": 780.645,
+    "text": " Yeah, I mean, the Empire State Building, obviously the World Trade Center had its own zip code."
+  },
+  {
+    "start": 782.186,
+    "end": 784.868,
+    "text": "Saks Fifth Avenue in New York City even has its own zip code."
+  },
+  {
+    "start": 785.048,
+    "end": 793.453,
+    "text": "Yeah, because sometimes it's not just big, it's important or illustrious or glamorous in the case of Saks."
+  },
+  {
+    "start": 793.653,
+    "end": 797.095,
+    "text": "Burning Man, this might be the fact of the show for me."
+  },
+  {
+    "start": 797.235,
+    "end": 803.639,
+    "text": "The Burning Man Festival has its own zip code while it's for two weeks out of every summer."
+  },
+  {
+    "start": 803.991,
+    "end": 807.613,
+    "text": " Yeah, pretty cool, huh?"
+  },
+  {
+    "start": 807.633,
+    "end": 807.613,
+    "text": "89412."
+  },
+  {
+    "start": 807.713,
+    "end": 809.054,
+    "text": "Sometimes they're very temporary, too."
+  },
+  {
+    "start": 809.074,
+    "end": 813.477,
+    "text": "You know how you said sometimes they grow, sometimes they retract the total number of zip codes?"
+  },
+  {
+    "start": 813.877,
+    "end": 814.077,
+    "text": "Yeah."
+  },
+  {
+    "start": 814.377,
+    "end": 819.641,
+    "text": "An example of that was in 2005 when Hurricane Katrina hit New Orleans."
+  },
+  {
+    "start": 820.021,
+    "end": 820.681,
+    "text": "Oh, yeah."
+  },
+  {
+    "start": 820.761,
+    "end": 832.529,
+    "text": "And a lot of people ended up in Houston, and there was such an influx of climate refugees from New Orleans in Houston that they had to house them in the Astrodome for a while."
+  },
+  {
+    "start": 833.189,
+    "end": 841.595,
+    "text": " And to make sure that those people could get mail and send mail, they were given their own zip code for the Houston Astrodome for a little while."
+  },
+  {
+    "start": 841.615,
+    "end": 841.595,
+    "text": "77230."
+  },
+  {
+    "start": 842.395,
+    "end": 843.476,
+    "text": "Yeah."
+  },
+  {
+    "start": 844.297,
+    "end": 845.577,
+    "text": "There's a bit of trivia for you."
+  },
+  {
+    "start": 846.538,
+    "end": 848.099,
+    "text": "I grew up with 30088."
+  },
+  {
+    "start": 849.38,
+    "end": 850.641,
+    "text": "Oh, mine was, let's see."
+  },
+  {
+    "start": 851.622,
+    "end": 852.042,
+    "text": "Oh, man."
+  },
+  {
+    "start": 852.762,
+    "end": 855.684,
+    "text": "I wish you hadn't just said that because now I don't remember mine."
+  },
+  {
+    "start": 856.545,
+    "end": 856.765,
+    "text": "Really?"
+  },
+  {
+    "start": 856.785,
+    "end": 861.048,
+    "text": "I figured that'd be sort of drilled in like your home phone."
+  },
+  {
+    "start": 861.636,
+    "end": 863.877,
+    "text": " No, I've got the rest of the address and my home phone."
+  },
+  {
+    "start": 863.917,
+    "end": 865.918,
+    "text": "It's just the zip code I can't remember."
+  },
+  {
+    "start": 866.418,
+    "end": 867.518,
+    "text": "Well, you could probably get it there."
+  },
+  {
+    "start": 868.079,
+    "end": 869.419,
+    "text": "It just doesn't matter."
+  },
+  {
+    "start": 870.76,
+    "end": 876.922,
+    "text": "There is also another way that they get pared down, too, is if your town catches on fire for half a century."
+  },
+  {
+    "start": 877.502,
+    "end": 877.903,
+    "text": "Oh, sure."
+  },
+  {
+    "start": 878.423,
+    "end": 883.425,
+    "text": "Like in Centralia, Pennsylvania, where the famous coal fire has been burning for decades now."
+  },
+  {
+    "start": 884.865,
+    "end": 891.088,
+    "text": "The Postal Service said, we're throwing in the towel on you guys in 1992 and revoked their zip code."
+  },
+  {
+    "start": 892.768,
+    "end": 901.633,
+    "text": " supposedly the wealthiest zip codes are 07620 Alpine, New Jersey, which I got to look that up."
+  },
+  {
+    "start": 901.833,
+    "end": 905.014,
+    "text": "It just must be like a Tony bedroom community for New York or something."
+  },
+  {
+    "start": 905.034,
+    "end": 907.556,
+    "text": "It does not make any sense."
+  },
+  {
+    "start": 907.576,
+    "end": 909.997,
+    "text": "And 33109 Fisher Island, Florida."
+  },
+  {
+    "start": 910.017,
+    "end": 911.738,
+    "text": "That sounds very exclusive."
+  },
+  {
+    "start": 912.158,
+    "end": 914.219,
+    "text": "It is not 90210 in Beverly Hills."
+  },
+  {
+    "start": 914.719,
+    "end": 914.94,
+    "text": "No."
+  },
+  {
+    "start": 915.14,
+    "end": 917.141,
+    "text": "I'm sure there's a lot of money there, but it's not the wealthiest."
+  },
+  {
+    "start": 917.621,
+    "end": 917.701,
+    "text": "No."
+  },
+  {
+    "start": 919.116,
+    "end": 919.857,
+    "text": " Sorry, everybody."
+  },
+  {
+    "start": 920.458,
+    "end": 922.86,
+    "text": "Sorry to burst your bubble, 90210 fans."
+  },
+  {
+    "start": 923.441,
+    "end": 925.423,
+    "text": "I've got to figure out what's going on in Alpine, New Jersey."
+  },
+  {
+    "start": 925.923,
+    "end": 926.484,
+    "text": "Yeah, for real."
+  },
+  {
+    "start": 926.764,
+    "end": 928.306,
+    "text": "It's surprising."
+  },
+  {
+    "start": 928.686,
+    "end": 929.648,
+    "text": "There's another thing, too."
+  },
+  {
+    "start": 929.688,
+    "end": 935.474,
+    "text": "Remember you talked about the PR department getting going on getting people to use zip codes in the 60s?"
+  },
+  {
+    "start": 935.934,
+    "end": 936.155,
+    "text": "Yeah."
+  },
+  {
+    "start": 936.595,
+    "end": 938.898,
+    "text": "One of the people they tapped was Santa Claus himself."
+  },
+  {
+    "start": 940.131,
+    "end": 947.454,
+    "text": " They gave Santa his own zip code 99701 and said, little kids, if you want to send letters to Santa, that's Santa's new zip code."
+  },
+  {
+    "start": 947.494,
+    "end": 948.414,
+    "text": "So put it on there."
+  },
+  {
+    "start": 948.434,
+    "end": 949.975,
+    "text": "It's pretty great."
+  },
+  {
+    "start": 950.195,
+    "end": 958.998,
+    "text": "I remember specifically in one of our early Christmas holiday specials, we talked about how Canada gave Santa his zip code for that country too."
+  },
+  {
+    "start": 959.478,
+    "end": 961.439,
+    "text": "And I think it's 80H0H0."
+  },
+  {
+    "start": 961.579,
+    "end": 963.9,
+    "text": "So it spells ho, ho, ho."
+  },
+  {
+    "start": 965.161,
+    "end": 965.621,
+    "text": " Oh, okay."
+  },
+  {
+    "start": 966.322,
+    "end": 970.005,
+    "text": "So, by the way, in real time, I just looked up Alpine, New Jersey real quick."
+  },
+  {
+    "start": 970.326,
+    "end": 970.866,
+    "text": "Okay."
+  },
+  {
+    "start": 970.886,
+    "end": 973.649,
+    "text": "Fewer than 2,000 residents, but they're all rich."
+  },
+  {
+    "start": 974.41,
+    "end": 977.092,
+    "text": "Yeah, that's kind of skewing the demo, you know what I mean?"
+  },
+  {
+    "start": 977.753,
+    "end": 978.254,
+    "text": "Oh, for sure."
+  },
+  {
+    "start": 978.414,
+    "end": 982.358,
+    "text": "Chris Rock, Tracy Morgan, Stevie Wonder, Ja Rule, Lil' Kim."
+  },
+  {
+    "start": 983.76,
+    "end": 988.124,
+    "text": " So I thought it might be like Elon Musk lived in that county and that was the only person or something."
+  },
+  {
+    "start": 988.164,
+    "end": 992.809,
+    "text": "But it must just be a very limited number of people and they're all loaded."
+  },
+  {
+    "start": 993.349,
+    "end": 994.33,
+    "text": "Tony, like you said."
+  },
+  {
+    "start": 994.75,
+    "end": 995.851,
+    "text": "So like a per capita thing."
+  },
+  {
+    "start": 996.152,
+    "end": 997.573,
+    "text": "That's such a great use of that word."
+  },
+  {
+    "start": 998.474,
+    "end": 998.954,
+    "text": "I like Tony."
+  },
+  {
+    "start": 1000.095,
+    "end": 1001.076,
+    "text": "If you like Tony."
+  },
+  {
+    "start": 1001.096,
+    "end": 1006.922,
+    "text": "Oh, wait, I was going to end this like a regular episode, but it's not a regular episode, Chuck, which means that it just stops."
+  },
+  {
+    "start": 1010.702,
+    "end": 1012.963,
+    "text": " Stuff You Should Know is a production of iHeartRadio."
+  },
+  {
+    "start": 1013.444,
+    "end": 1019.649,
+    "text": "For more podcasts from iHeartRadio, visit the iHeartRadio app, Apple Podcasts, or wherever you listen to your favorite shows."
+  }
+]
