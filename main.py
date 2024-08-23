@@ -47,35 +47,47 @@ justOutput = jsonResponse['choices'][0]['message']['content']
 # Step 9: Parse the JSON output into a Python list of dictionaries
 ad_segments = json.loads(justOutput)
 
-# Step 10: Load the input MP3 file
-audio = AudioSegment.from_mp3("input.mp3")
+# Step 10: Get the list of audio files in the current directory
+audio_extensions = ['mp3', 'wav', 'ogg', 'flac', 'opus', 'm4a', 'aac']
+audio_files = [f for f in os.listdir('.') if any(f.endswith(ext) for ext in audio_extensions)]
 
-# Step 11: Create a list to hold the non-ad segments
-non_ad_segments = []
-
-# Initialize the previous end time
-prev_end_time = 0
-
-# Step 12: Process each ad segment and extract non-ad segments
-for segment in ad_segments:
-    start_time = segment["start"] * 1000  # Convert to milliseconds
-    end_time = segment["end"] * 1000  # Convert to milliseconds
+# Step 11: Process each audio file
+for audio_file in audio_files:
+    # Load the audio file
+    audio = AudioSegment.from_file(audio_file)
     
-    # Add the segment before the ad to the non_ad_segments list
-    if prev_end_time < start_time:
-        non_ad_segments.append(audio[prev_end_time:start_time])
-    
-    # Update the previous end time to the end of the current ad segment
-    prev_end_time = end_time
+    # Initialize a list to hold the non-ad segments
+    non_ad_segments = []
 
-# Add the final segment after the last ad
-if prev_end_time < len(audio):
-    non_ad_segments.append(audio[prev_end_time:])
+    # Initialize the previous end time
+    prev_end_time = 0
 
-# Step 13: Concatenate all non-ad segments
-output_audio = sum(non_ad_segments)
+    # Process each ad segment and extract non-ad segments
+    for segment in ad_segments:
+        start_time = segment["start"] * 1000  # Convert to milliseconds
+        end_time = segment["end"] * 1000  # Convert to milliseconds
 
-# Step 14: Export the result to a new MP3 file
-output_audio.export("output.mp3", format="mp3")
+        # Add the segment before the ad to the non_ad_segments list
+        if prev_end_time < start_time:
+            non_ad_segments.append(audio[prev_end_time:start_time])
 
-print("The ad segments have been removed, and the resulting audio is saved as 'output.mp3'.")
+        # Update the previous end time to the end of the current ad segment
+        prev_end_time = end_time
+
+    # Add the final segment after the last ad
+    if prev_end_time < len(audio):
+        non_ad_segments.append(audio[prev_end_time:])
+
+    # Concatenate all non-ad segments
+    output_audio = sum(non_ad_segments)
+
+    # Create a new filename with "(trimmed-ads)" inserted before the extension
+    base_name, ext = os.path.splitext(audio_file)
+    output_filename = f"{base_name}(trimmed-ads){ext}"
+
+    # Export the result to a new file
+    output_audio.export(output_filename, format=ext.replace('.', ''))
+
+    print(f"Processed '{audio_file}' and saved as '{output_filename}'")
+
+print("All audio files have been processed.")
