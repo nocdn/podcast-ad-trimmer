@@ -5,10 +5,11 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
-# Configuration
+# configuration
 UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'mp3'}
-API_KEY = 'cQlEpRGJbif9YQMGwGH8HWmUG1kkbBalQAumk6KMjLm9tFTF'
+FIREWORKS_API_KEY = os.environ.get("FIREWORKS_API_KEY")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # create uploads folder if it doesn't exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -42,7 +43,7 @@ def transcribe_audio():
         with open(filepath, "rb") as f:
             response = requests.post(
                 "https://audio-prod.us-virginia-1.direct.fireworks.ai/v1/audio/transcriptions",
-                headers={"Authorization": f"Bearer {API_KEY}"},
+                headers={"Authorization": f"Bearer {FIREWORKS_API_KEY}"},
                 files={"file": f},
                 data={
                     "vad_model": "silero",
@@ -59,7 +60,30 @@ def transcribe_audio():
         os.remove(filepath)
         
         if response.status_code == 200:
-            return jsonify(response.json())
+            transcription = response.json()
+            
+            # summarize transcription using GPT-4o
+            gpt_response = requests.post(
+                "https://api.openai.com/v1/chat/completions",
+                headers={
+                    "Content-Type": "application/json",
+                    "Authorization": f"Bearer {OPENAI_API_KEY}"
+                },
+                json={
+                    "model": "gpt-4o",
+                    "messages": [
+                        {"role": "system", "content": "Summarize the transcription you are given."},
+                        {"role": "user", "content": f"{transcription}"}
+                    ]
+                }
+            )
+            
+            if gpt_response.status_code == 200:
+                summary = gpt_response.json()
+                return jsonify({'summary': summary['choices'][0]['message']['content']})
+            else:
+                return jsonify({'error': f'Summary generation failed: {gpt_response.text}'}), gpt_response.status_code
+            
         else:
             return jsonify({'error': f'Transcription failed: {response.text}'}), response.status_code
             
@@ -67,4 +91,4 @@ def transcribe_audio():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5555)
