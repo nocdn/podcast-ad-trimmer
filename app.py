@@ -3,6 +3,8 @@ import requests
 import os
 from werkzeug.utils import secure_filename
 import logging
+import re
+from openai import OpenAI
 
 app = Flask(__name__)
 
@@ -102,34 +104,28 @@ def transcribe_audio():
             shortened_transcription = shorten_transcription(transcription)
             logging.info("Transcription shortened successfully")
 
-            # return jsonify({'transcription': shortened_transcription})
-            
             # summarize transcription using GPT-4o
             logging.info("Summarizing transcription using GPT-4o")
-            gpt_response = requests.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Content-Type": "application/json",
-                    "Authorization": f"Bearer {OPENAI_API_KEY}"
-                },
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "From this podcast transcript, give me the exact timestamps of the ad segments. For each ad segment, give me an opening timestamp, and an ending timestamp."},
-                        {"role": "user", "content": f"{shortened_transcription}"}
-                    ]
-                }
+            openai.api_key = OPENAI_API_KEY
+            client = OpenAI()
+            gpt_response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "From this podcast transcript, give me the exact timestamps of the ad segments. For each ad segment, give me an opening timestamp, and an ending timestamp. You can reason and think step by step, but then make sure to output the exact timestamps in chronological order, in an array of curly braces. For example [{\"start\": 0.0, \"end\": 10.0}, {\"start\": 20.0, \"end\": 30.0}]."},
+                    {"role": "user", "content": f"{shortened_transcription}"}
+                ]
             )
-            logging.info(f"Summary request sent, response status code: {gpt_response.status_code}")
+            logging.info(f"Summary request sent, response status code: {gpt_response['choices'][0]['finish_reason']}")
             
-            if gpt_response.status_code == 200:
-                summary = gpt_response.json()
+            if gpt_response['choices'][0]['finish_reason'] == 'stop':
+                actual_summary = gpt_response['choices'][0]['message']['content']
+                final_timestamps = re.search(r'\[.*\]', actual_summary)
                 logging.info("Summary generated successfully")
-                logging.debug(f"Summary response: {summary}")
-                return jsonify({'summary': summary['choices'][0]['message']['content']})
+                logging.debug(f"Summary response: {gpt_response}")
+                return jsonify({'summary': final_timestamps.group()})
             else:
-                logging.error(f"Summary generation failed: {gpt_response.text}")
-                return jsonify({'error': f'Summary generation failed: {gpt_response.text}'}), gpt_response.status_code
+                logging.error(f"Summary generation failed: {gpt_response}")
+                return jsonify({'error': 'Summary generation failed'}), 500
             
         else:
             logging.error(f"Transcription failed: {response.text}")
