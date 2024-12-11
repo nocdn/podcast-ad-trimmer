@@ -68,6 +68,10 @@ else:
 transcription_url = f"https://mango.sievedata.com/v2/jobs/{job_id}"
 transcription = None
 
+transcription_get_headers = {
+    "X-API-Key": api_key
+}
+
 # Polling loop to check if transcription is ready
 while True:
     response = requests.get(transcription_url, headers=headers)
