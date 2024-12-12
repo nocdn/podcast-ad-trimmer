@@ -17,6 +17,7 @@ UPLOAD_FOLDER = 'uploads'
 ALLOWED_EXTENSIONS = {'mp3'}
 FIREWORKS_API_KEY = os.environ.get("FIREWORKS_API_KEY")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 logging.debug(f"FIREWORKS_API_KEY: {FIREWORKS_API_KEY}")
 logging.debug(f"OPENAI_API_KEY: {OPENAI_API_KEY}")
@@ -106,10 +107,9 @@ def transcribe_audio():
 
             # summarize transcription using GPT-4o
             logging.info("Summarizing transcription using GPT-4o")
-            openai.api_key = OPENAI_API_KEY
-            client = OpenAI()
+            client = OpenAI(api_key=OPENAI_API_KEY, base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
             gpt_response = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gemini-1.5-flash",
                 messages=[
                     {"role": "system", "content": "From this podcast transcript, give me the exact timestamps of the ad segments. For each ad segment, give me an opening timestamp, and an ending timestamp. You can reason and think step by step, but then make sure to output the exact timestamps in chronological order, in an array of curly braces. For example [{\"start\": 0.0, \"end\": 10.0}, {\"start\": 20.0, \"end\": 30.0}]."},
                     {"role": "user", "content": f"{shortened_transcription}"}
