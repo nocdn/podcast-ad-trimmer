@@ -4,15 +4,15 @@ Remove ads from podcasts with Whisper and LLMs
 
 ## How it works?
 
-A transcript is made with an API from Fireworks AI, running Whisper, an open-source ASR model, with word level timestamps, then this is fed into an LLM (gpt-4o) to extract the time stamps to cut the audio between, then processes that with ffmpeg to create a new audio file without the ads.
+A transcript is made with an API from Fireworks AI, running Whisper (specifically Whisper-v3-large-turbo), an open-source ASR model, with word level timestamps, then this is fed into an LLM (Gemini 2.0 Flash) to extract the time stamps to cut the audio between, then processes that with ffmpeg to create a new audio file without the ads.
 
 ## How much does it cost?
 
-Whisper is billed at 0.0009 USD per second, and GPT-4o is billed at 0.00001 per output tokens, so for an hour long podcast, the transcription is billed at 3.24 USD.
+Whisper is billed at $0.0009 per audio minute (billed per second), and Gemini 2.0 Flash is billed at $0.40 per million output tokens ($0.0000004 per token), so for an hour long podcast, the process is billed at around 0.11 USD.
 
 ## How to use it?
 
-1. Make sure you have an OpenAI API key, as an environment variable called `OPENAI_API_KEY`.
+1. Make sure you have an Gemini API key, as an environment variable called `GEMINI_API_KEY`.
 2. Make sure you have a Fireworks AI API key, as an environment variable called `FIREWORKS_API_KEY`.
 3. Install ffmpeg on the system you are running this on
 4. Start a new virtual environment with Python 3.10 or higher
